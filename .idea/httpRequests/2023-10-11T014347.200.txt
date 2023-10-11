@@ -1,1 +1,0 @@
-Employee with ID = 1 was deleted
