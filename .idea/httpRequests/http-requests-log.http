@@ -1,0 +1,103 @@
+POST http://localhost:8080/api/employees/?id1=2&id2=3&pin=4567
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T015305.404.html
+
+###
+
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+Content-Length: 44
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id1" : 2,
+  "id2" : 3,
+  "pin" : 4567
+}
+
+<> 2023-10-11T015113.404.html
+
+###
+
+POST http://localhost:8080/api/employees
+Content-Type: application/json
+Content-Length: 10
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{2,3,2567}
+
+<> 2023-10-11T014956.404.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T014347.200.txt
+
+###
+
+DELETE http://localhost:8080/api/employees/1,1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T013715.500.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1,111
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T013659.500.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T013301.500.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1,1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T013254.500.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1,1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T013146.404.html
+
+###
+
+DELETE http://localhost:8080/api/employees/1/1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-10-11T012632.500.html
+
+###
+
